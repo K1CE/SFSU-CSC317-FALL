@@ -1,12 +1,41 @@
 /* remove thic comment to add @import font or CSS variables at the top of this file */
+.redaction-50-regular {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-50-bold {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-50-regular-italic {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 * {
+  font-family: "Redaction 50", serif;
+  font-size: 10px;
   box-sizing: border-box;
+}
+
+:is(h1){
+  font-size: 47px;
+}
+:is(h2){
+  font-size: 26px;
+
 }
 
 body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  line-height: 15px;
 }
 
 /* Layout */
