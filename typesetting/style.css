@@ -25,10 +25,11 @@
 
 :is(h1){
   font-size: 47px;
+  letter-spacing: 3px;
 }
 :is(h2){
   font-size: 26px;
-
+  letter-spacing: 3px;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
   min-width: 1000px;
   max-width: 1400px;
   line-height: 15px;
+  text-indent: 1.25rem;
 }
 
 /* Layout */
@@ -68,6 +70,7 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
+  text-align: center;
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
